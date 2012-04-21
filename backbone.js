@@ -5,7 +5,7 @@
 //     For all details and documentation:
 //     http://backbonejs.org
 
-(function(){
+;(function(){
 
   // Initial Setup
   // -------------
@@ -1432,3 +1432,9 @@
   };
 
 }).call(this);
+
+;(function (Backbone) {
+  define(function () {
+    return Backbone
+  })
+})(this.Backbone)
