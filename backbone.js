@@ -1433,6 +1433,6 @@ define(['underscore', 'jquery'], function (_, $) {
     var urlError = function() {
       throw new Error('A "url" property or function must be specified');
     };
-
   }).call(this);
+  return this.Backbone
 })
